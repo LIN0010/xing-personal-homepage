@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >🎀個人首頁🎀</title>
+    <link rel="stylesheet" href="hw1-113201027.css">
+	<link rel="shortcut icon" href="favicon.ico"/>
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <h2>選單</h2>
+            <ul class="menu cute-button">
+                <li>
+                    <input type="checkbox" id="about-toggle">
+                    <label for="about-toggle">關於我的更多</label>
+                    <ul class="submenu">
+                        <li><a href="#">自我介紹_不正經版</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <input type="checkbox" id="homework-toggle">
+                    <label for="homework-toggle">網頁作業的家</label>
+                    <ul class="submenu">
+                        <li><a href="hw/hw1.pdf" target="_blank">作業一</a></li>
+                        <li><a href="hw/hw2.pdf" target="_blank">作業二</a></li>
+                        <li><a href="hw/hw3.pdf" target="_blank">作業三</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <input type="checkbox" id="drawing-toggle">
+                    <label for="drawing-toggle">繪圖寶寶們</label>
+                    <ul class="submenu">
+                        <li><a href="#drawing">手繪</a></li>
+                        <li><a href="#drawing">AI算圖</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <input type="checkbox" id="t-toggle">
+                    <label for="t-toggle">文章小天地</label>
+                    <ul class="submenu">
+                        <li><a href="#css">我還沒想好</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <main class="content">
+            <header>
+                <h1>個人首頁</h1>
+            </header>
+            <section id="css">
+                <h2>基本資料</h2>
+                <div class="profile-box p-box" style="align-items: flex-start;">
+                    <img src="https://imgur.com/a/pCophYX" class="image1" alt="我的照片" title="身分證頭貼(對不起可能造成驚嚇)" onclick="showSurprise()" >
+                    <div class="profile-details" style="line-height: 1.6;">
+                        <p><b>姓名：</b>林慧馨</p>
+                        <p><b>學號：</b>113201027</p>
+                        <p><b>職業：</b>陽明交大護理系大一/肥宅</p>
+                        <p><b>生日：</b>2006年1月19日</p>
+                        <p><b style="margin-left: 3px;">MBTI：</b>ISFJ</p>
+                        <p><b>星座血型：</b>魔羯座／B型</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="drawing">
+                <h2>關於我Σ>―(〃°ω°〃)♡→</h2>
+                <div class="p-box">				
+                <ul class="p-list">
+                    <li><b>興趣</b><br>
+					休閒類：玩手遊、畫畫、和OpenAI聊天(?、聽音樂、寫小說<br>
+					運動類："看"排球賽、一點點的羽球、桌球
+					</li>
+                    <li><b>缺點(認清自我版)</b><br>
+					好吃懶做、拖延症末期、單身哥布林、錢包空空、胖、四眼田雞、各科各才藝都普普的中等學生
+					</li>
+                    <li><b>來陽明交大的收(埋)穫(怨)</b><br>
+					在陽明被醫學院學生貶低、在交大被理工科學生歧視，護理系沒人權嗚嗚
+					</li>
+                </ul>
+            </section>
+            <section>
+                <h2>聯絡資料(❀╹◡╹)</h2>
+                <div class="contact-box p-box menu2">
+                    <p><b>Facebook：</b><a href="https://www.facebook.com/profile.php?id=100009221935598" target="_blank" rel="noopener noreferrer">林慧馨</a></p>
+                    <p><b>IG：</b> <a href="https://www.instagram.com/huixin950119/" target="_blank" rel="noopener noreferrer">huixin950119</a></p>
+                    <p><b>電話：</b> 0961-550052</p>
+					<p><b>E-mail：</b> <a href="mailto:huixin1901@gmail.com">huixin1901@gmail.com</a></p>                
+					</div>
+            </section>
+            <footer class="footer">
+				<p>感謝瀏覽本陽春網站<span class="heart">♥</span></p>
+			</footer>
+				</div>
+		</div>
+		</main>
+
+<script>
+  function showSurprise() {
+    alert("送上一顆大愛心❤️");
+  }
+</script>
+
+<div class="sticky-s sticky-wrapper">
+  <img src="y.png" alt="妹妹" class="sticky-s">
+</div>
+<div class="sticky-b sticky-wrapper">
+  <img src="x.png" alt="哥哥" class="sticky-b">
+</div>
+</body>
+</html>
+
