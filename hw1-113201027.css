@@ -85,7 +85,6 @@ body {
     margin-top: 5px;
     background-color: #ffd6eb;
     border-radius: 5px;
-    overflow: visible;
 }
 
 .submenu li {
@@ -190,7 +189,7 @@ h2::after {
   bottom: 0;
   height: 18px;
   width: 100%;
-  background: url("Love.png") repeat-x center;
+  background: url("https://raw.githubusercontent.com/LIN0010/xing-personal-homepage/main/Love.png") repeat-x center;
   background-size: contain;
 }
 
@@ -386,6 +385,7 @@ h2::after {
   }
 
 }
+
 
 
 
