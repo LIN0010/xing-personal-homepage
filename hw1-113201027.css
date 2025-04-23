@@ -52,18 +52,6 @@ body {
   box-sizing: border-box;
 }
 
-/*.sidebar {
-    background-color: #ffcce6;
-    padding: 30px 20px;
-    width: 220px;
-	min-height: 100vh; 
-    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
-    border-bottom: 2px solid #f7b3d3;
-	box-sizing: border-box;
-}*/
-
-
-
 .menu {
     list-style: none;
     padding: 0;
@@ -204,15 +192,6 @@ h2::after {
   background: url("Love.png") repeat-x center;
   background-size: contain;
 }
-
-/*.sidebar {
-    background-color: #ffcce6;
-    padding:128px 20px 30px 20px;
-    width: 220px;
-    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
-    border-bottom: 2px solid #f7b3d3;
-}*/
-
 
 .p-box {
     background-color: #fff5fa;
@@ -360,26 +339,6 @@ h2::after {
   border: 1px solid #f8bbd0;         
   transition: all 0.3s ease;
 }
-
-/*@media screen and (max-width: 480px) {
-  .container {
-    flex-direction: column;
-  }
-
-  .content {
-    order: 1;         
-    width: 100%;
-    margin-left: 0;
-    margin-bottom: 20px;
-  }
-
-  .sidebar {
-    order: 2;         
-    width: 100%;
-	border-top: 2px solid #ffc0cb;
-    padding-top: 10px;
-  }
-}*/
 
 @media screen and (max-width: 480px) {
 	html,body.container{
