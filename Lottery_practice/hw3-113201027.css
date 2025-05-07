@@ -1,0 +1,64 @@
+@charset="utf-8";
+*{
+  font-family: "標楷體", sans-serif;
+}
+body {
+  text-align: center;
+  margin-top: 50px;
+  background-color: #fff0f5;
+}
+
+#container {
+  margin: 20px auto;
+}
+
+.slot {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  margin: 10px;
+  border: 3px dashed hotpink;
+  border-radius: 12px;
+  background-color: #fffafc;
+}
+
+.ball {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background-color: pink;
+  border-radius: 50%;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.spinning {
+  animation: spinny 0.3s linear infinite;
+  background-color: #ff8ac0;
+}
+
+@keyframes spinny {
+  0%   { transform: rotateX(0deg);    }
+  100% { transform: rotateX(360deg); }
+}
+
+button {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: hotpink;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:active {
+  background-color: deeppink;
+}
