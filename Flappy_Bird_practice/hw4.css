@@ -1,0 +1,72 @@
+@charset="utf-8";
+body {
+    background-color: #050000;
+	background: radial-gradient(circle at center, #220000 20%, #000000 90%);
+    color: #ffcccc;
+    font-family: '標楷體','Courier New', Courier, monospace;
+    text-align: center;
+    animation: ambientGlow 6s ease-in-out infinite alternate;
+    margin: 0;
+    padding: 20px;
+}
+
+@keyframes ambientGlow {
+    from { background-color: #050000; }
+    to { background-color: #110000; }
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    background: radial-gradient(circle at center, #330000 0%, #000000 100%);
+    border-radius: 12px;
+    box-shadow:
+        0 0 20px 5px rgba(255, 0, 0, 0.2),inset 0 0 20px rgba(255, 0, 0, 0.1);
+	border: 2px solid rgba(255, 85, 85, 0.3); 
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.3), 0 0 8px rgba(255, 100, 100, 0.5);
+}
+button {
+    font-size: 18px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background-color: #330000;
+    color: #ffcccc;
+    border: none;
+    box-shadow: 0 0 10px #660000;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+button:hover {
+    background-color: #660000;
+}
+
+#restartWrap{
+    position:fixed;
+    top:30%; left:50%;
+    transform:translate(-50%,-50%);
+    z-index:2;
+    text-align:center;
+}
+#restartButton{
+    padding:6px 20px;
+    font-size:20px;
+    background:#c00;
+    color:#fff;
+    border:none;
+    border-radius:12px;
+    cursor:pointer;
+    box-shadow:0 0 20px #ff000066;
+}
+
+#buttonGroup{
+    display:flex;
+    justify-content:center;
+    gap:16px;
+    margin-top:40px;
+}
+
+#restartWrap, #restartButton{ pointer-events:auto; }
+
+
+
