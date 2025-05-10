@@ -8,7 +8,7 @@ body {
     animation: ambientGlow 6s ease-in-out infinite alternate;
     margin: 0;
     padding: 20px;
-    overflow: hidden;
+	overflow: hidden;
 }
 
 @keyframes ambientGlow {
@@ -18,7 +18,7 @@ body {
 
 canvas {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 40px;
     background: radial-gradient(circle at center, #330000 0%, #000000 100%);
     border-radius: 12px;
     box-shadow:
@@ -44,7 +44,7 @@ button:hover {
 
 #restartWrap {
     position: fixed;
-    top:60%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -74,7 +74,6 @@ button:hover {
 
 #restartWrap, #restartButton{ pointer-events:auto; }
 
-#restartWrap, #restartButton{ pointer-events:auto; }
 
 
 
